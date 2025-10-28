@@ -1,2 +1,3 @@
 const saudacao = "Olá Mundo"
-console.log(saudacao);
+const sauFinal = "seja bem vindo"
+console.log(saudacao, sauFinal);
