@@ -1,0 +1,19 @@
+var prompt = require('prompt-sync')();
+console.log("Math.ceil",Math.ceil(7.0001));
+console.log("Math.floor",Math.floor(9.5));
+console.log("Math.round",Math.round(5.7));
+const valor = 10/3
+console.log("Valor:",valor.toFixed(2));
+console.log("Math.pow",Math.pow(2,3));
+console.log("Math.sqrt",Math.sqrt(25));
+const cor = prompt('Digite uma cor: ').toLocaleLowerCase().trim()
+if(cor == "azul"){
+    console.log("É isso...")
+}else{
+    console.log("ERRO");
+    
+}
+console.log("math.random",Math.random());
+
+    
+    
